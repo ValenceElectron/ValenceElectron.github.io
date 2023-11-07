@@ -1,0 +1,25 @@
+#body {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    color: #eeeeee;
+    width: 50vw;
+    height: 75vh;
+    font-size: 0.75em;
+}
+
+#grad {
+    position:
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+}
+
+.title {
+    margin: 0;
+    color: #eeeeee;
+}
