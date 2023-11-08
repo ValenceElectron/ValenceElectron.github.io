@@ -1,12 +1,29 @@
 #body {
     margin: auto;
+    margin-top: 9em;
+    margin-bottom: 9em;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 300px 300px 300px;
     gap: 100px;
     color: #eeeeee;
-    width: 50vw;
-    height: 75vh;
-    font-size: 0.75em;
+    width: 63vw;
+    height: 50vh;
+    font-size: 0.8em;
+}
+
+#body h2 {
+    text-align: center;
+}
+
+#body p {
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+    margin-top: 3em;
+    color: #eeeeee;
+    font-size: 0.8m;
 }
 
 #grad {
@@ -15,11 +32,11 @@
 
 h1 {
     text-align: center;
-    margin: 0;
+    margin: auto;
     font-size: 4em;
 }
 
 .title {
-    margin: 0;
+    margin: auto;
     color: #eeeeee;
 }

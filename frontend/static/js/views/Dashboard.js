@@ -12,20 +12,33 @@ export default class extends AbstractView {
             <h1>
                 <p class="title">About Me</p>
             </h1>
-            <div id="space"></div>
+            <div id="about">
+                <p>
+                    My name is Anthony Alaman. I'm extremely interested in all things computing.
+                </p>
+            </div>
             <div id="body">
                 <div id="grad">
-                    <h1>Education</h1>
+                    <h2>Education</h2>
                     <p>
-                        I graduated from California State University, Sacramento
-                        <br> B.S. in Computer Science, Concentration in Computer Architecture, 2023
+                        B.S. in Computer Science, <br>Concentration in Computer Architecture,
+                        <br>CSU Sacramento, 2023
                     </p>
                 </div>
-                <p>
-                    Put more stuff here
-                <p>
+                <div id="languages">
+                    <h2>Known Programming Languages</h2>
+                    <p>
+                        Java, Javascript, HTML, CSS, C, C++
+                    <p>
+                </div>
+                <div id="frameworks">
+                    <h2>Known Frameworks</h2>
+                    <p>
+                        Node.js, Express.js, React.js, Codename One
+                    </p>
+                </div>
+                <div id="Known Libraries">
                     <a href="/experience" data-link>View recent posts here</a>.
-                </p>
             </div>
         `;
     }
