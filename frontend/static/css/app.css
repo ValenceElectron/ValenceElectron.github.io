@@ -1,14 +1,14 @@
 #body {
     margin: auto;
-    margin-top: 9em;
-    margin-bottom: 9em;
+    margin-top: 150px;
+    margin-bottom: 150px;
     display: grid;
     grid-template-columns: 300px 300px 300px;
     gap: 100px;
     color: #eeeeee;
     width: 63vw;
     height: 50vh;
-    font-size: 0.8em;
+    font-size: 16px;
 }
 
 #body h2 {
@@ -23,17 +23,27 @@
     text-align: center;
     margin-top: 3em;
     color: #eeeeee;
-    font-size: 0.8m;
+    font-size: 18px;
 }
 
 #grad {
     position:
 }
 
-h1 {
+header {
+    margin-top: 0;
+    background-image: url("../assets/planets.png");
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
     text-align: center;
-    margin: auto;
-    font-size: 4em;
+    top: 50px;
+    font-size: 64px;
 }
 
 .title {

@@ -9,9 +9,12 @@ export default class extends AbstractView {
     async getHtml() {
         return `
             <link rel="stylesheet" href="./static/css/app.css">
-            <h1>
-                <p class="title">About Me</p>
-            </h1>
+            <header>
+                <div></div>
+                <h1>
+                    <p class="title">About Me</p>
+                </h1>
+            </header>
             <div id="about">
                 <p>
                     My name is Anthony Alaman. I'm extremely interested in all things computing.
