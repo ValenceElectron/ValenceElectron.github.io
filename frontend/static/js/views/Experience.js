@@ -8,7 +8,7 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
-            <link rel="stylesheet" type="text/css" href="./frontend/static/css/app.css">
+            <link rel="stylesheet" type="text/css" href="./frontend/static/css/Experience.css">
             <header>
                 <div></div>
                 <h1>
@@ -23,7 +23,7 @@ export default class extends AbstractView {
                     <br>project development and testing, writing documentation, and deployment.
                 </p>
             </div>
-            <div id="xp-body">
+            <div id="body">
                 <div id="exp1">
                     <h2>Fantasy Challenge</h2>
                     <p>
@@ -44,7 +44,7 @@ export default class extends AbstractView {
                         on the backend.
                     <p>
                 </div>
-                <div id="exp1-pics">
+                <div id="pics">
                     <img src="./frontend/static/assets/exp1-1.png" alt="Fantasy Challenge home page"/>
                     <img src="./frontend/static/assets/exp1-2.png" alt="Fantasy Challenge login page"/>
                 </div>

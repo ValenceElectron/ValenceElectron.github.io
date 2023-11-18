@@ -8,7 +8,7 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
-            <link rel="stylesheet" type="text/css" href="./frontend/static/css/app.css">
+            <link rel="stylesheet" type="text/css" href="./frontend/static/css/Projects.css">
             <header>
                 <div></div>
                 <h1>
@@ -21,7 +21,7 @@ export default class extends AbstractView {
                     <br>Ranging from projects that I started during my undergrad, to this very website.
                 </p>
             </div>
-            <div id="pj-body">
+            <div id="body">
                 <div id="pj1">
                     <h2><a href="https://github.com/ValenceElectron/gmon">gmon</a></h2>
                     <p>
