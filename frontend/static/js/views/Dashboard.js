@@ -8,7 +8,7 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
-            <link rel="stylesheet" href="./frontend/static/css/app.css">
+            <link rel="stylesheet" type="text/css" href="./frontend/static/css/app.css">
             <header>
                 <div></div>
                 <h1>
