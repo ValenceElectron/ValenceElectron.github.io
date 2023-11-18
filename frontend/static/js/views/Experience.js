@@ -3,7 +3,7 @@ import AbstractView from "./AbstractView.js";
 export default class extends AbstractView {
     constructor() {
         super();
-        this.setTitle("Anthony Alaman");
+        this.setTitle("Work Experience");
     }
 
     async getHtml() {
@@ -12,7 +12,7 @@ export default class extends AbstractView {
             <header>
                 <div></div>
                 <h1>
-                    <p class="title">My Experience</p>
+                    <p class="title">Work Experience</p>
                 </h1>
             </header>
             <div id="about">
@@ -33,12 +33,11 @@ export default class extends AbstractView {
                         such as user accounts. I also helped design visual elements such as webpages
                         and navigation bars, to help round out my web development experience.<br><br>
 
-                        Alongside developing features, I also participated in the entire SDLC (software
-                        development life cycle). I took part in biweekly meetings with our client
+                        Alongside developing features, I took part in biweekly meetings with our client
                         where my team would demonstrate the features that we've developed, receive
                         feedback, and refine the design according to our client's requirements. I also
                         participated in authoring extensive documentation for deployment, testing,
-                        maintenance.<br><br>
+                        and maintenance.<br><br>
 
                         To the right are images showing off the landing and login pages. Our work was
                         done using React.js/HTML/CSS for the frontend, and Node.js/Express.js/MariaDB

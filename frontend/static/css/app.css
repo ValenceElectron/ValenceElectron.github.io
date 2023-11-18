@@ -44,6 +44,43 @@
     height: 250px;
 }
 
+#pj-body {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 50px;
+    color: #eeeeee;
+    width: 63vw;
+    height: 50vh;
+    font-size: 16px;
+}
+
+#pj-body h2 {
+    text-align: center;
+}
+
+#pj-body p {
+    text-align: center;
+}
+
+#pj2 img {
+    width: 350px;
+}
+
+#pj4 {
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #eeeeee;
+    width: 63vw;
+    height: 50vh;
+    font-size: 16px;
+
+}
+
 #about {
     text-align: center;
     margin-top: 3em;
