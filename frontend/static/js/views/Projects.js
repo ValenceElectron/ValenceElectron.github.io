@@ -39,7 +39,7 @@ export default class extends AbstractView {
                     </p>
                 </div>
                 <div id="pj2">
-                    <h2><a href="./static/assets/proj2-1.png">16-bit MIPS Architecture Microprocessor</a></h2>
+                    <h2><a href="./frontend/static/assets/proj2-1.png">16-bit MIPS Architecture Microprocessor</a></h2>
                     <p>
                         As part of my Advanced Computer Architecture elective, we were required to design
                         a 16-bit MIPS ISA Microprocessor in Logisim according to requirements that
