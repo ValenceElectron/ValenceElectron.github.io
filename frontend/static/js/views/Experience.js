@@ -45,8 +45,8 @@ export default class extends AbstractView {
                     <p>
                 </div>
                 <div id="exp1-pics">
-                    <img src="./static/assets/exp1-1.png" alt="Fantasy Challenge home page"/>
-                    <img src="./static/assets/exp1-2.png" alt="Fantasy Challenge login page"/>
+                    <img src="./frontend/static/assets/exp1-1.png" alt="Fantasy Challenge home page"/>
+                    <img src="./frontend/static/assets/exp1-2.png" alt="Fantasy Challenge login page"/>
                 </div>
         `;
     }
