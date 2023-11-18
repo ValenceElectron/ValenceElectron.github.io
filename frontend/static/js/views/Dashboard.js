@@ -17,7 +17,9 @@ export default class extends AbstractView {
             </header>
             <div id="about">
                 <p>
-                    My name is Anthony Alaman. I'm extremely interested in all things computing.
+                    My name is Anthony Alaman. I'm fascinated by all things science and computing,
+                    <br>but I have a special love for low-level computer science concepts,
+                    <br>such as computer hardware architecture.
                 </p>
             </div>
             <div id="body">
@@ -53,7 +55,7 @@ export default class extends AbstractView {
                     </p>
                 </div>
                 <div id="more">
-                    <h2>Check Out More</h2>
+                    <h2>Check Out What I've Done</h2>
                     <p>
                         <a href="/experience" data-link>My work experience</a>
                         <br>
