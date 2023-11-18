@@ -31,17 +31,35 @@ export default class extends AbstractView {
                 <div id="languages">
                     <h2>Known Programming Languages</h2>
                     <p>
-                        Java, Javascript, HTML, CSS, C, C++
+                        Java, Javascript/HTML/CSS, C, C++, MySQL
                     <p>
                 </div>
                 <div id="frameworks">
                     <h2>Known Frameworks</h2>
                     <p>
-                        Node.js, Express.js, React.js, Codename One
+                        Express.js, React.js, Codename One
                     </p>
                 </div>
-                <div id="Known Libraries">
-                    <a href="/experience" data-link>View recent posts here</a>.
+                <div id="libraries">
+                    <h2>Known Libraries</h2>
+                    <p>
+                        OpenSSL, OpenGL, GLM, Codename One, Java Swing
+                    </p>
+                </div>
+                <div id="tools">
+                    <h2>Known Tools</h2>
+                    <p>
+                        Logisim, Git, Github, Jira, Make, Linux
+                    </p>
+                </div>
+                <div id="more">
+                    <h2>Check Out More</h2>
+                    <p>
+                        <a href="/experience" data-link>My work experience</a>
+                        <br>
+                        <a href="/projects" data-link>My personal projects</a>
+                    </p>
+                </div>
             </div>
         `;
     }
