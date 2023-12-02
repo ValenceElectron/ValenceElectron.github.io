@@ -25,7 +25,7 @@ export default class extends AbstractView {
                 <div id="pj1">
                     <h2><a href="https://github.com/ValenceElectron/gmon">gmon</a></h2>
                     <p>
-                        gmon is a Free and Open Source Software (FOSS) project. I developed it with
+                        gmon is a FOSS project. I developed it with
                         Java, Java Swing, and Bash. It's built to be easily extensible and work on
                         any Linux distro.<br><br>
 
@@ -50,15 +50,17 @@ export default class extends AbstractView {
                     </p>
                 </div>
                 <div id="pj3">
-                    <h2>This Website</h2>
+                    <h2><a href="https://github.com/ValenceElectron/dynamate">Dynamate</a></h2>
                     <p>
-                        Due to the website experience I have being closed source, and my client
-                        requesting to deploy it himself, I figured making my own website would be a good
-                        way to publicly show what I can do. This website is built with vanilla
-                        JavaScript/HTML/CSS for the front end, Express.js for the backend, and I decided
-                        to go for a single page application for its simplicity.<br><br>
-                        I'm predominantly a back-end focused dev, but I do like to dabble in front-end
-                        every now and again.
+                        Dynamate is a FOSS project. Developed with C++, GLFW, and OpenGL. It's currently only
+                        available for Linux, but can be easily ported to Windows.<br> <br>
+
+                        Dynamate is a lightweight, 2D, graphics engine geared specifically for rendering animated elements
+                        to the desktop. It instantiates a transparent window using GLFW and renders the graphics objects onto
+                        the window surface. The driving idea behind the project is to allow users to decorate their desktops
+                        with animated characters or objects, and it's open source to promote creativity from the users and incentivize
+                        them to create their own graphical scenes with the project.
+                    </p>
                 </div>
             </div>
             <div id="pj4">
